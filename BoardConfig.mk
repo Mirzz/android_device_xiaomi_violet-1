@@ -9,6 +9,8 @@ BOARD_VENDOR := xiaomi
 
 DEVICE_PATH := device/xiaomi/violet
 
+
+BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -56,11 +58,11 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 KERNEL_LD := LD=ld.lld
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/xiaomi/violet
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
 TARGET_KERNEL_CONFIG := vendor/violet-perf_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 BOARD_RAMDISK_OFFSET := 0x01000000
-
+						
 # Platform
 TARGET_BOARD_PLATFORM := sm6150
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno612
