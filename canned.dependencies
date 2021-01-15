@@ -1,5 +1,11 @@
 [
   {
+    "repository" : "device_xiaomi_violet",
+    "target_path": "device/xiaomi/violet",
+    "branch": "ravioli",
+    "remote": "pixel-devices-blobs"
+  },
+  {
     "repository" : "vendor_xiaomi_violet",
     "target_path": "vendor/xiaomi/violet",
     "branch": "eleven",
