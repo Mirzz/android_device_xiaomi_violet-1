@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_violet.mk
+    $(LOCAL_DIR)/ssos_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_violet-userdebug \
-    potato_violet-user \
-	potato_violet-eng
+    ssos_violet-userdebug \
+    ssos_violet-user \
+	ssos_violet-eng
