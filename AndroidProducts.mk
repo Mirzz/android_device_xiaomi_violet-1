@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_violet.mk
+    $(LOCAL_DIR)/lineage_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_violet-userdebug \
-    ssos_violet-user \
-	ssos_violet-eng
+    lineage_violet-userdebug \
+    lineage_violet-user \
+	lineage_violet-eng

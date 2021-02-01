@@ -8,7 +8,7 @@
 BOARD_VENDOR := xiaomi
 
 DEVICE_PATH := device/xiaomi/violet
-
+ALLOW_MISSING_DEPENDENCIES := true
 
 BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
 # Architecture
